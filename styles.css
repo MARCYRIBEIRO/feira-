@@ -1,11 +1,10 @@
 .header {
     background-color: rgb(80, 176, 115);
-    display: flex;
     padding: 10px;
     flex-wrap: wrap;
     font-size: x-large;
     justify-content: space-evenly;
-    text-align: right;
+    display: flex;
 }
 
 .titulo {
@@ -34,3 +33,16 @@
     display: inline;
     margin-right: 10px;
   }
+
+  .img{
+   float: right;
+   margin: 2%;
+  }
+
+  .texto{
+  font-size:200%;
+}
+
+body{
+  background-color:azure;
+}
